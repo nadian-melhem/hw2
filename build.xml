@@ -4,7 +4,7 @@
 
 
     <property name="src.java.dir" location="./src/calculater"/>
-    <property name="src.test.dir" location="./src/default package"/>
+    <property name="src.test.dir" location="./src/testt"/>
     <property name="result.dir" location="./target"/>
     <property name="result.javaclasses.dir" location="${result.dir}/classes"/>
     <property name="result.testclasses.dir" location="${result.dir}/testclasses"/>

@@ -9,10 +9,14 @@ import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
+import calculater.cal;
+ 
 public class calTest {
 
+static cal obj = new cal() ; 
 	@BeforeClass
 	public static void setUpBeforeClass() throws Exception {
+	
 	}
 
 	@AfterClass
@@ -21,6 +25,7 @@ public class calTest {
 
 	@Before
 	public void setUp() throws Exception {
+		
 	}
 
 	@After
@@ -29,7 +34,7 @@ public class calTest {
 
 	@Test
 	public void test() {
-		fail("Not yet implemented");
+		assertEquals(5,obj.add(3,2));
 	}
 
 }
