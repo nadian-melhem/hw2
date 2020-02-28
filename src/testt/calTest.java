@@ -13,10 +13,10 @@ import calculater.cal;
  
 public class calTest {
 
-static cal obj = new cal() ; 
+	static cal obj;
 	@BeforeClass
 	public static void setUpBeforeClass() throws Exception {
-	
+		obj = new cal() ; 
 	}
 
 	@AfterClass
