@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?><?xml version="1.0" encoding="UTF-8"?>
 
 <project default="compile">
 
 
-    <property name="src.java.dir" location="./src/calculater/cal"/>
-    <property name="src.test.dir" location="./src/calculater/calTest"/>
+    <property name="src.java.dir" location="./src/calculater"/>
+    <property name="src.test.dir" location="./src/default package"/>
     <property name="result.dir" location="./target"/>
     <property name="result.javaclasses.dir" location="${result.dir}/classes"/>
     <property name="result.testclasses.dir" location="${result.dir}/testclasses"/>
